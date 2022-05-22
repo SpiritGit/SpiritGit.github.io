@@ -108,7 +108,7 @@ export default function ArticleView({ pageContext }) {
     const scriptEl = document.createElement('script')
     scriptEl.async = true
     scriptEl.src = 'https://utteranc.es/client.js'
-    scriptEl.setAttribute('repo', 'kqhasaki/kqhasaki.github.io')
+    scriptEl.setAttribute('repo', 'SpiritGit/SpiritGit.github.io')
     scriptEl.setAttribute('issue-term', 'pathname')
     scriptEl.setAttribute('label', 'blog comment')
     scriptEl.setAttribute('theme', getCommentTheme())

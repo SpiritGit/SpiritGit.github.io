@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="wrapper">
         <div>
           <h3>Thanks for reading!</h3>
-          <p>CopyRight &copy; 2022 Louis K - Present</p>
+          <p>CopyRight &copy; 2022 Spirit - Present</p>
         </div>
         <div>
           <p style={{ fontSize: '1.3rem' }}>
@@ -36,13 +36,13 @@ export default function Footer() {
               <QqCircleFilled />
             </span>
             <span>
-              <a href="mailto:k1664032884@gmail.com">
+              <a href="mailto:someemail.com">
                 <MailFilled />
               </a>
             </span>
             <span>
               <a
-                href="https://github.com/kqhasaki"
+                href="https://github.com/SpiritGit"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { YoutubeOutlined } from '@ant-design/icons'
-import MusicPlayer from '../music-player'
 import { debounce } from 'lodash'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -69,9 +68,7 @@ export default function TableOfContent({ headers }) {
   return (
     <>
       <div className="table-of-content" ref={ref}>
-        <div className="table-of-content-header">
-          <MusicPlayer />
-        </div>
+        <div className="table-of-content-header"></div>
         <div className="table-of-content-main" ref={contentRef}>
           {headers.map((header, idx) => (
             <p
