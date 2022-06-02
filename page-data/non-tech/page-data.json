@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-blog-list-js",
     "path": "/non-tech/",
-    "result": {"data":{"allMdx":{"totalCount":1,"nodes":[{"excerpt":"","id":"a349dc13-e5cf-5e1f-a4c5-304f112b880a","slug":"non-tech/test","frontmatter":{"title":"测试非技术文章","date":"2022-03-15","cover":"https://tva1.sinaimg.cn/large/e6c9d24egy1h21adqj3x1g20dc07ib2b.gif"},"timeToRead":1,"wordCount":{"paragraphs":0,"sentences":0,"words":0}}]}},"pageContext":{"limit":6,"skip":0,"numPages":1,"currentPage":1,"postType":"NON_TECH","regex":"/^(non-tech)/"}},
+    "result": {"data":{"allMdx":{"totalCount":1,"nodes":[{"excerpt":"","id":"90507899-c12a-510b-8398-e43bcaf1251a","slug":"non-tech/test","frontmatter":{"title":"测试非技术文章","date":"2022-03-15","cover":"https://tva1.sinaimg.cn/large/e6c9d24egy1h21adqj3x1g20dc07ib2b.gif"},"timeToRead":1,"wordCount":{"paragraphs":0,"sentences":0,"words":0}}]}},"pageContext":{"limit":6,"skip":0,"numPages":1,"currentPage":1,"postType":"NON_TECH","regex":"/^(non-tech)/"}},
     "staticQueryHashes": ["2757060725","3605573801"]}
