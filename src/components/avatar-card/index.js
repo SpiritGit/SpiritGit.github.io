@@ -13,19 +13,15 @@ const CAREER = {
   Chinese: [
     {
       label: '本科',
-      content: <div>XX大学 - xxxx - xxxx ）</div>,
+      content: <div>天津理工大学 - 保险精算 </div>,
     },
     {
       label: '硕士',
-      content: <div>XX大学 - xxxx - xxxx</div>,
+      content: <div>南京审计大学 - 统计学</div>,
     },
     {
-      label: 'xxx ~ xxx',
-      content: <div>xxxx公司 - xxxx - xxxx</div>,
-    },
-    {
-      label: 'xxx ~ 至今',
-      content: <div>xxxx公司 - xxxx - xxxx</div>,
+      label: '2021.05 ~ 至今',
+      content: <div>南京感动科技有限公司 - 智慧交通研究中心 - 算法工程师</div>,
     },
   ],
 }
@@ -38,7 +34,7 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="https://github.com/SpiritGit/SpiritGit.github.io"
+          href="/articles/tech/test"
         >
           xxxxx
         </a>
@@ -61,7 +57,7 @@ export default function AvatarCard() {
       {SELF_INTROS[language].map((content, idx) => (
         <div key={idx}>{content}</div>
       ))}
-      <h2 className="homepage-title">开源项目</h2>
+      <h2 className="homepage-title">我的博客</h2>
       <ItemList items={PROJECTS[language]} />
       <h2 className="homepage-title">生涯</h2>
       <ItemList items={CAREER[language]} />
