@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-blog-list-js",
-    "path": "/list-2",
-    "result": {"data":{"allMdx":{"totalCount":7,"nodes":[{"excerpt":"","id":"a82102b3-4d44-5c24-ac06-fa48775c95d3","slug":"Flink/test","frontmatter":{"title":"测试技术文章","date":"2022-03-15","cover":"https://tva1.sinaimg.cn/large/e6c9d24egy1h21adqj3x1g20dc07ib2b.gif"},"timeToRead":1,"wordCount":{"paragraphs":0,"sentences":0,"words":0}}]}},"pageContext":{"limit":6,"skip":6,"numPages":2,"currentPage":2,"postType":"TECH","regex":"/^(?!non-tech)/"}},
-    "staticQueryHashes": ["2757060725","3605573801"]}
