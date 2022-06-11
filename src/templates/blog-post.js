@@ -10,6 +10,7 @@ import ArticleNavigator from '../components/article-navigator'
 import { LeftOutlined, RightOutlined } from '@ant-design/icons'
 import { debounce, throttle } from 'lodash'
 import '../components/base-layout/index.css'
+import "katex/dist/katex.min.css"
 
 function getNextLevel(levelStr) {
   const dict = {

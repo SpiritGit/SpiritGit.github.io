@@ -119,6 +119,7 @@ export default function Header() {
           <Link to="/" className="nav-link" activeClassName="link-active">
             <span className="link-label">Tech</span>
           </Link>
+          
           <Link
             to="/non-tech/"
             className="nav-link-gold nav-link"
@@ -126,6 +127,14 @@ export default function Header() {
           >
             <span className="link-label">Ramble</span>
           </Link>
+
+          {/* <Link
+            to="/Research/"
+            className="nav-link-gold nav-link"
+            activeClassName="link-active-gold"
+          >
+            <span className="link-label">Research</span>
+          </Link> */}
 
           <div className="nav-link" ref={lampRef}>
             <button className="lamp" aria-pressed="true" type="button">

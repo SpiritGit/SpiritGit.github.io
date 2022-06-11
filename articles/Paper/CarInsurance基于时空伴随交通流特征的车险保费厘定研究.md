@@ -2,14 +2,21 @@
 title: 基于时空伴随交通流特征的车险保费厘定研究
 date: 2022-06-08
 cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/car_insurance.jpeg
-tags: ["交通流", "车险保费厘定"]
+tags: ["UBI车险", "交通流", "时空伴随", "保费厘定", "TFUBI车险"]
 ---
+
+<center>王鑫之，胡昕宇</center>
+<center>（南京感动科技有限公司 智慧交通研究中心，江苏省 南京市210004）</center>
+
 
 **摘要**：商业车险是财产保险公司营收的重要险种，亦是人民社会生活中的重要组成部分，然而车辆行驶过程中的风险因素众多，难以精确度量，因此商业车险费率定价一直以来是多方关注的重点问题。传统车险费率厘定主要考虑驾驶人的年龄与驾龄、性别等个人因素，以及车型、车龄、用途等车辆因素，而忽略了驾驶人的行为因素。UBI车险根据驾驶人的行为习惯计算得到调整系数，对基本费率进行修正，一定程度优化了费率定价。本文在此基础上，进一步考虑了交通流对驾驶人行为的影响，即认为驾驶行为会受交通流状况的影响。本文从若干交通流指标中提取会影响驾驶行为并最终影响车辆出险风险的三个交通流风险评价指标，进而给出其计算公式，并通过熵权法推导各风险指标的权重。进一步通过历史观测法确定保险实操中的单车交通流风险评价指标的计算方式，最终，本文计算得到单车的交通流风险指标及交通流调整系数，并基于此对UBI费率进行调整得到TFUBI费率，即基于交通流及实际使用的保险，从而帮助保险公司以一种客观全面的风险衡量方式，对其保险产品做出更精准的定价，最终达成保险公司与客户的双赢。
 
 **关键词**：UBI车险，交通流，时空伴随，保费厘定，TFUBI车险
 
 # Research on Vehicle Insurance Premium Determination Based on the Characteristics of Space-time Accompanying Traffic Flow
+
+<center>Xinzhi Wang, Xinyu Hu</center>
+<center>（Research Center of Intelligent Transportation，Nanjing Microvideo Technology Co. Ltd., Nanjing City 210004, P.R.China）</center>
 
 **Abstract**: Commercial vehicle insurance is an important type of insurance for property insurance companies' revenue, and it is also an important part of people's social life. However, there are many risk factors in the process of vehicle driving, which are difficult to measure accurately. Therefore, the pricing of commercial vehicle insurance rates has always been the focus of attention from many parties. The traditional vehicle insurance rate determination mainly considers the driver's age, driving experience, gender and other personal factors, as well as vehicle factors such as vehicle type, vehicle age, and purpose of usage, while ignoring the driver's behavior. UBI vehicle insurance calculates the adjustment coefficient according to the driver's behavior habits, and corrects the basic rate, which optimizes the rate pricing to a certain extent. On this basis, this paper further considers the influence of traffic flow on driver behavior, that is, it is believed that driving behavior will be affected by traffic flow conditions. In this paper, three traffic flow risk evaluation indicators that will affect driving behavior and ultimately affect the risk of vehicle accident are extracted from several traffic flow indicators, and their calculation formulas are given, then deduce the weight of each risk indicator through the entropy weight method. Further, the single-vehicle traffic flow risk evaluation indicators in insurance practice are determined by historical observation method. Finally, this paper calculates the traffic flow risk indicator and traffic flow adjustment coefficient of single-vehicle, and adjusts the UBI rate based on this to obtain TFUBI, that is, insurance based on traffic flow and actual usage, thus helping insurance companies to make more accurate pricing of their insurance products in an objective and comprehensive risk measurement method, and finally achieve a win-win situation between insurance companies and customers.
 
@@ -71,6 +78,7 @@ $$
 其中Q表示观测周期$T_J$内观测到的车辆数，$v_i$表示第$i$辆车的速度。
 
 由此，基于式($\ref{speed}$)，车流速度拥堵指数为
+
 
 $$
 \begin{equation}\label{speed_con}

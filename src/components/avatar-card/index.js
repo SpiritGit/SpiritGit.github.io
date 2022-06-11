@@ -6,7 +6,7 @@ import ItemList from '../item-list'
 import './index.css'
 
 const SELF_INTROS = {
-  Chinese: [<div>你好，我是Spirit。欢迎来到这个博客。</div>],
+  Chinese: [<div>你好，我是王鑫之。欢迎来到我的博客。</div>],
 }
 
 const CAREER = {

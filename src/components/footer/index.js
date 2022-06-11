@@ -1,3 +1,4 @@
+import wechat from '../../images/wechat.jpg'
 import React, { useEffect, useState } from 'react'
 import resume from '../../static/resume/resume.pdf'
 import resumeEn from '../../static/resume/resume-en.pdf'
@@ -10,8 +11,10 @@ import {
 } from '@ant-design/icons'
 import './index.css'
 
+
 export default function Footer() {
-  const [enableDownload, setEnableDownload] = useState(false)
+
+  const [enableDownload, setEnableDownload] = useState(false);
 
   useEffect(() => {
     const path = window.location.pathname
@@ -19,6 +22,8 @@ export default function Footer() {
       setEnableDownload(true)
     }
   }, [])
+
+
 
   return (
     <footer className="footer">
@@ -29,14 +34,18 @@ export default function Footer() {
         </div>
         <div>
           <p style={{ fontSize: '1.3rem' }}>
+
             <span>
               <WechatFilled />
             </span>
+
             <span>
               <QqCircleFilled />
             </span>
+
+
             <span>
-              <a href="mailto:someemail.com">
+              <a href="mailto:w879020706@gmail.com">
                 <MailFilled />
               </a>
             </span>

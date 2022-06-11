@@ -12,7 +12,9 @@ export const GROUP_TITLES = {
   'Java': 'Java编程从入门到实践',
   'Flink': '顶级开源流处理引擎flink',
   'BigData': '大数据技术栈概览',
-  'Research': '大数据应用',
+  'Research': '其他研究',
+  'Paper': '发表论文',
+  'Patent': '发明专利',
 }
 
 export default function ArticleNavigator({ currArticle }) {

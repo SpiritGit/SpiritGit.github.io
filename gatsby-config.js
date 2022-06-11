@@ -1,3 +1,6 @@
+// const remark_math = require(`remark-math`)
+// const rehype_katex = require(`rehype-katex`)
+
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
@@ -6,25 +9,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
-            }
-          }
-        ],
-      },
-    },
-
-    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: ['.mdx', '.md'],
+
+        // remarkPlugins: [remark_math,],
+        // rehypePlugins: [rehype_katex,],
+
         gatsbyRemarkPlugins: [
+          'gatsby-remark-mermaid',
           {
             resolve: `gatsby-remark-highlight-code`,
             options: {
@@ -34,10 +27,12 @@ module.exports = {
         ],
       },
     },
+
     {
       resolve: 'gatsby-source-filesystem',
       options: { name: 'articles', path: `${__dirname}/articles` },
     },
+
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
@@ -47,6 +42,7 @@ module.exports = {
         showSpinner: false,
       },
     },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
