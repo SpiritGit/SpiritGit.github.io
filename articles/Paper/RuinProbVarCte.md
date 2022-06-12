@@ -1,7 +1,7 @@
 ---
 title: Asymptotics for value at risk and conditional tail expectation of a portfolio loss
 date: 2022-06-12
-cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/car_credit_system.jpg
+cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/var_cte.jpg
 tags: ["asymptotics", "conditional tail expectation", "heavy tailed distribution", "quasi-asymptotic
 independence", "value at risk"]
 ---

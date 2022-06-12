@@ -1,7 +1,7 @@
 ---
 title: Second Order Asymptotics for Infinite-Time Ruin Probability in a Compound Renewal Risk Model
 date: 2022-06-08
-cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/car_credit_system.jpg
+cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/bankruptcy.jpg
 tags: ["Compound renewal risk model", "Infinite-time ruin probability", "Second order
 asymptotic behavior", "Second order subexponential distribution", "Crude Monte-Carlo
 simulation"]

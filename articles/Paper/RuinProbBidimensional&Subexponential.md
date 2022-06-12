@@ -1,7 +1,7 @@
 ---
 title: Asymptotic fnite‐time ruin probabilities in a dependent bidimensional renewal risk model with subexponential claims
 date: 2022-06-12
-cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/car_credit_system.jpg
+cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/bankruptcy.jpg
 tags: ["Bidimensional renewal risk model", "Ruin probability", "Subexponential
 distribution", "Strongly asymptotic independence"]
 ---
