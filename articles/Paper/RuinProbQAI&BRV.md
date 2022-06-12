@@ -6,4 +6,4 @@ tags: ["asymptotics", "main claim", "by-claim", "asymptotical (in)dependence", "
 ---
 
 
-<iframe src="https://drive.google.com/file/d/1VY2UDAe8pxRJrwgsHf1DMJ9xguQE9Zjv/preview" style="width:100%;height:100%" frameborder="1" name="1" scrolling="no"></iframe>
+<iframe src="https://drive.google.com/file/d/1VY2UDAe8pxRJrwgsHf1DMJ9xguQE9Zjv/preview" style="width:100%;height:100%" frameborder="1"></iframe>

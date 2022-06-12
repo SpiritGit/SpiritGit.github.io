@@ -29,12 +29,12 @@ const CAREER = {
 const PROJECTS = {
   Chinese: [
     {
-      label: '基于gatsby开发的静态博客',
+      label: '数据科学中的Python编程',
       content: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/tech/test"
+          href="/articles/Python/test"
         >
           xxxxx
         </a>

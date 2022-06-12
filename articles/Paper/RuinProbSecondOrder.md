@@ -8,4 +8,4 @@ simulation"]
 ---
 
 
-<iframe src="https://drive.google.com/file/d/1WkAtpgfNFNZBSHRVaRfGL2HW2hy--WO2/preview" style="width:100%;height:100%" frameborder="1" name="1" scrolling="no"></iframe>
+<iframe src="https://drive.google.com/file/d/1WkAtpgfNFNZBSHRVaRfGL2HW2hy--WO2/preview" style="width:100%;height:100%" frameborder="1"></iframe>
