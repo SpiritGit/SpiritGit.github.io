@@ -62,9 +62,9 @@
 }
 
 .article-navigator h4 {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .article-navigator h4:first-child {
@@ -96,9 +96,9 @@
   margin: 0;
   overflow-x: hidden;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .article-navigator p:hover {

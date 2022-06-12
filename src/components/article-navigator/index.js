@@ -11,10 +11,10 @@ export const GROUP_TITLES = {
   'Python': '数据科学中的Python编程',
   'Java': 'Java编程从入门到实践',
   'Flink': '顶级开源流处理引擎flink',
-  'BigData': '大数据技术栈概览',
   'Research': '其他研究',
   'Paper': '发表论文',
   'Patent': '发明专利',
+  'Share': '转载与分享'
 }
 
 export default function ArticleNavigator({ currArticle }) {
