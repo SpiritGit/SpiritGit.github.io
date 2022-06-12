@@ -96,7 +96,7 @@ export default function ArticleView({ pageContext }) {
       wrapper.style.backgroundSize = 'cover'
       const loader = document.createElement('div')
       loader.classList.add('loader')
-      loader.textContent = 'YouTube loading'
+      loader.textContent = 'Loading...'
       wrapper.appendChild(loader)
       iframe.onload = () => {
         wrapper.removeChild(loader)
