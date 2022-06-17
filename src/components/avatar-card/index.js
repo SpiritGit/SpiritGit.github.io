@@ -29,17 +29,57 @@ const CAREER = {
 const PROJECTS = {
   Chinese: [
     {
-      label: '数据科学中的Python编程',
+      // label: 
       content: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/Python/test"
+          href="/articles/Python/WhyPython"
         >
-          xxxxx
+          数据科学中的Python编程: 实用教程
         </a>
       ),
     },
+
+    {
+      // label: 
+      content: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/Java/WhyJava"
+        >
+          大数据中的Java编程: 实用教程
+        </a>
+      ),
+    },
+
+    {
+      // label: 
+      content: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/Paper/1"
+        >
+          我的论文集
+        </a>
+      ),
+    },
+
+    {
+      // label: 
+      content: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/Patent/1"
+        >
+          我的专利集
+        </a>
+      ),
+    },
+    
   ],
 }
 

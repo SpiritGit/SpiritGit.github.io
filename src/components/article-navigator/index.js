@@ -9,7 +9,7 @@ import './index.css'
 export const GROUP_TITLES = {
   'non-tech': '日常杂谈',
   'Python': '数据科学中的Python编程',
-  'Java': 'Java编程从入门到实践',
+  'Java': '大数据中的Java编程',
   'Flink': '顶级开源流处理引擎flink',
   'Research': '其他研究',
   'Paper': '发表论文',
