@@ -7,14 +7,14 @@ import { faList } from '@fortawesome/free-solid-svg-icons'
 import './index.css'
 
 export const GROUP_TITLES = {
+  '1Paper': '发表论文',
+  '2Patent': '发明专利',
+  '3Python': '数据科学中的Python编程',
+  '4Java': '大数据中的Java编程',
+  '5Flink': '顶级开源流处理引擎flink',
+  '6Research': '其他研究',
+  '7Share': '转载与分享',
   'non-tech': '日常杂谈',
-  'Python': '数据科学中的Python编程',
-  'Java': '大数据中的Java编程',
-  'Flink': '顶级开源流处理引擎flink',
-  'Research': '其他研究',
-  'Paper': '发表论文',
-  'Patent': '发明专利',
-  'Share': '转载与分享'
 }
 
 export default function ArticleNavigator({ currArticle }) {

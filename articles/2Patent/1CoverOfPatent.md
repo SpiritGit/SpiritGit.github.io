@@ -1,5 +1,5 @@
 ---
-title: 我的专利集--封面
+title: 专利集--封面
 date: 2022-06-11
 cover: https://github.com/SpiritGit/SpiritGit.github.io/raw/main/src/images/covers/patent.jpg
 ---
