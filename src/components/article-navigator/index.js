@@ -15,6 +15,7 @@ export const GROUP_TITLES = {
   '6Research': '其他研究',
   '7Share': '转载与分享',
   'non-tech': '日常杂谈',
+  '8Book': '电子书',
 }
 
 export default function ArticleNavigator({ currArticle }) {

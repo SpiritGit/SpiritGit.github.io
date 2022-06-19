@@ -13,11 +13,11 @@ const CAREER = {
   Chinese: [
     {
       label: '本科',
-      content: <div>天津理工大学 - 保险精算 </div>,
+      content: <div>2014 ~ 2018 - 天津理工大学 - 保险精算 </div>,
     },
     {
       label: '硕士',
-      content: <div>南京审计大学 - 统计学</div>,
+      content: <div>2018 ~ 2021 - 南京审计大学 - 统计学</div>,
     },
     {
       label: '2021.05 ~ 至今',
@@ -26,7 +26,7 @@ const CAREER = {
                 <p>
                   1. 多来源数据实时融合<br/>
                   用途：对多个交通观测数据进行实时融合，以提升数据准确性及信息量<br/>
-                  关键词：flink，java，kafka，redis，clickhouse，postgresql
+                  关键词：flink，java，kafka，redis，clickhouse，postgresql，topology
                 </p>
                 <p>2. 车辆实时及历史轨迹计算</p>
                 <p>3. 车辆实时位置追踪及预测系统</p>
@@ -35,6 +35,7 @@ const CAREER = {
                 <p>6. 空间基础数据及空间算法</p>
                 <p>7. 路网及观测设备拓扑结构构建</p>
                 <p>8. 交通本体及知识图谱构建</p>
+                <p>9. 车辆画像构建</p>
                </div>,
     },
   ],
@@ -44,8 +45,7 @@ const PROJECTS = {
   Chinese: [
 
     {
-      // label: 
-      content: (
+      label: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
@@ -53,13 +53,18 @@ const PROJECTS = {
         >
           我的论文集
         </a>
+      ), 
+      content: (
+        <span>
+          记录学习及工作生涯中的若干发表论文，目前主要涉及风险，精算，信用等领域，欢迎阅读与引用
+          <s>（主要增加引用量就是了）</s>
+        </span>
       ),
     },
 
 
     {
-      // label: 
-      content: (
+      label: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
@@ -67,6 +72,11 @@ const PROJECTS = {
         >
           我的专利集
         </a>
+      ) ,
+      content: (
+        <span>
+          工作生涯中若干绝妙的发明创造，故转化为专利<s>（虽然都归单位所有）</s>
+        </span>
       ),
     },
 
@@ -93,6 +103,19 @@ const PROJECTS = {
           href="/articles/4Java/WhyJava"
         >
           大数据中的Java编程: 实用教程
+        </a>
+      ),
+    },
+
+    {
+      // label: 
+      content: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/5Flink/WhyFlink"
+        >
+          顶级开源流处理引擎flink: 实用教程
         </a>
       ),
     },

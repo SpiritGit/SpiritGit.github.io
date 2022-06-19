@@ -128,13 +128,6 @@ export default function Header() {
             <span className="link-label">Ramble</span>
           </Link>
 
-          {/* <Link
-            to="/Research/"
-            className="nav-link-gold nav-link"
-            activeClassName="link-active-gold"
-          >
-            <span className="link-label">Research</span>
-          </Link> */}
 
           <div className="nav-link" ref={lampRef}>
             <button className="lamp" aria-pressed="true" type="button">
