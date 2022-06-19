@@ -1,7 +1,7 @@
 ---
 title: LeetCode 101:和你一起你轻松刷题(C++)
 date: 2022-06-12
-cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/data_twin_report_2021.jpg
+cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/leetcode.jpeg
 tags: ["数据结构与算法","LeetCode"]
 ---
 
