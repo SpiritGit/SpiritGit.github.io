@@ -1,7 +1,7 @@
 ---
-title: 读《黑客与画家》有感
+title: 《黑客与画家》读书笔记
 date: 2022-06-12
-cover: https://github.com/SpiritGit/SpiritGit.github.io/raw/main/src/images/covers/data_scientist.jpg
+cover: https://github.com/SpiritGit/SpiritGit.github.io/raw/main/src/images/covers/hackers_and_painters.jpg
 ---
 
 
