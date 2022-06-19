@@ -1,7 +1,7 @@
 ---
 title: 中国数字孪生城市研究报告（2021）
 date: 2022-06-12
-cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/KG.jpg
+cover: https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/data_twin_report_2021.jpg
 tags: ["数字孪生"]
 ---
 
