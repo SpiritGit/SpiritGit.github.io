@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-list-js",
+    "path": "/share/list-2",
+    "result": {"data":{"allMdx":{"totalCount":8,"nodes":[{"excerpt":"","id":"709c1847-9e87-534a-9b87-1470f2f564fc","slug":"share/KGIntroduce","frontmatter":{"title":"人工智能之知识图谱","date":"2022-06-12","cover":"https://raw.githubusercontent.com/SpiritGit/SpiritGit.github.io/main/src/images/covers/KG.jpg"},"timeToRead":1,"wordCount":{"paragraphs":0,"sentences":0,"words":0}},{"excerpt":"具体见左侧导航栏 -- 发表论文","id":"f751932f-d27a-5cbb-ba76-2a007dad7479","slug":"share/aCoverOfShare","frontmatter":{"title":"分享--封面","date":"2022-06-11","cover":"https://github.com/SpiritGit/SpiritGit.github.io/raw/main/src/images/covers/publish.jpg"},"timeToRead":1,"wordCount":{"paragraphs":1,"sentences":1,"words":2}}]}},"pageContext":{"limit":6,"skip":6,"numPages":2,"currentPage":2,"postType":"SHARE","regex":"/^(share)/"}},
+    "staticQueryHashes": ["2757060725","3605573801"]}
