@@ -11,7 +11,7 @@ export const GROUP_TITLES = {
   'patent': '发明专利',
   'python': '数据科学中的Python编程',
   'java': '大数据中的Java编程',
-  'flink': '顶级开源流处理引擎flink',
+  'apache_flink': '顶级开源流处理引擎flink',
   'research': '其他研究',
   'share': '转载与分享',
   'non-tech': '日常杂谈',

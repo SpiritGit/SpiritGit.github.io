@@ -49,7 +49,7 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/paper/1CoverOfPaper"
+          href="/articles/paper/aCoverOfPaper"
         >
           我的论文集
         </a>
@@ -68,7 +68,7 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/patent/1CoverOfPatent"
+          href="/articles/patent/aCoverOfPatent"
         >
           我的专利集
         </a>
@@ -82,21 +82,24 @@ const PROJECTS = {
 
 
     {
-      // label: 
-      content: (
+      label: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
           href="/articles/python/WhyPython"
         >
-          数据科学中的Python编程: 实用教程
+          数学科学中的Python
         </a>
+      ),
+      content: (
+        <span>
+          Python编程教学<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
       ),
     },
 
     {
-      // label: 
-      content: (
+      label: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
@@ -104,25 +107,33 @@ const PROJECTS = {
         >
           大数据中的Java编程: 实用教程
         </a>
+      ), 
+      content: (
+        <span>
+          大数据中的Java编程: 实用教程<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
       ),
     },
 
     {
-      // label: 
-      content: (
+      label: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/flink/WhyFlink"
+          href="/articles/apache_flink/WhyFlink"
         >
           顶级开源流处理引擎flink: 实用教程
         </a>
       ),
+      content: (
+        <span>
+          大数据中的Java编程: 实用教程<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
+      ),
     },
 
     {
-      // label: 
-      content: (
+      label: (
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
@@ -130,6 +141,28 @@ const PROJECTS = {
         >
           数据结构与算法
         </a>
+      ),
+      content: (
+        <span>
+          数据结构与算法<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
+      ),
+    },
+
+    {
+      label: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/share/aCoverOfShare"
+        >
+          分享与转载
+        </a>
+      ), 
+      content: (
+        <span>
+          分享与转载<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
       ),
     },
 
