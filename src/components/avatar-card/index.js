@@ -49,7 +49,7 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/1Paper/1CoverOfPaper"
+          href="/articles/paper/1CoverOfPaper"
         >
           我的论文集
         </a>
@@ -68,14 +68,14 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/2Patent/1CoverOfPatent"
+          href="/articles/patent/1CoverOfPatent"
         >
           我的专利集
         </a>
       ) ,
       content: (
         <span>
-          工作生涯中若干绝妙的发明创造，故转化为专利<s>（虽然都归单位所有）</s>
+          工作生涯中若干绝妙的发明创造，故转化为专利<s>（不能浪费，虽然都归单位所有）</s>
         </span>
       ),
     },
@@ -87,7 +87,7 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/3Python/WhyPython"
+          href="/articles/python/WhyPython"
         >
           数据科学中的Python编程: 实用教程
         </a>
@@ -100,7 +100,7 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/4Java/WhyJava"
+          href="/articles/java/WhyJava"
         >
           大数据中的Java编程: 实用教程
         </a>
@@ -113,9 +113,22 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/5Flink/WhyFlink"
+          href="/articles/flink/WhyFlink"
         >
           顶级开源流处理引擎flink: 实用教程
+        </a>
+      ),
+    },
+
+    {
+      // label: 
+      content: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/DSA/what"
+        >
+          数据结构与算法
         </a>
       ),
     },

@@ -7,14 +7,15 @@ import { faList } from '@fortawesome/free-solid-svg-icons'
 import './index.css'
 
 export const GROUP_TITLES = {
-  '1Paper': '发表论文',
-  '2Patent': '发明专利',
-  '3Python': '数据科学中的Python编程',
-  '4Java': '大数据中的Java编程',
-  '5Flink': '顶级开源流处理引擎flink',
-  '6Research': '其他研究',
-  '7Share': '转载与分享',
+  'paper': '发表论文',
+  'patent': '发明专利',
+  'python': '数据科学中的Python编程',
+  'java': '大数据中的Java编程',
+  'flink': '顶级开源流处理引擎flink',
+  'research': '其他研究',
+  'share': '转载与分享',
   'non-tech': '日常杂谈',
+  'DSA':'数据结构与算法'
 }
 
 export default function ArticleNavigator({ currArticle }) {
@@ -37,8 +38,24 @@ export default function ArticleNavigator({ currArticle }) {
   `).allFile.group.filter(({ fieldValue }) => {
     if (currArticle.slug.startsWith('non-tech')) {
       return fieldValue === 'non-tech'
-    } else {
-      return fieldValue !== 'non-tech'
+    } 
+    // 新增
+    else if (currArticle.slug.startsWith('share')) {
+      return fieldValue === 'share'
+    } 
+    else if (currArticle.slug.startsWith('research')) {
+      return fieldValue === 'paper'  | fieldValue === 'patent' | fieldValue === 'research' 
+    }
+    else if (currArticle.slug.startsWith('paper')) {
+      return  fieldValue === 'paper'  |  fieldValue === 'patent' | fieldValue === 'research'
+    }
+    else if (currArticle.slug.startsWith('patent')) {
+      return  fieldValue === 'paper' | fieldValue === 'patent'  | fieldValue === 'research'
+    }
+    // 截至此处
+    else {
+      return fieldValue !== 'non-tech' & fieldValue !== 'research' & fieldValue !== 'paper' & fieldValue !== 'patent' & fieldValue !== 'share'
+      
     }
   })
 

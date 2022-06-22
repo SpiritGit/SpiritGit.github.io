@@ -39,7 +39,18 @@ export default function ArticlesView({ data, pageContext }) {
 
   function navigateToPage(pageNum) {
     const { postType } = pageContext
-    const baseURL = postType === 'TECH' ? '/' : '/non-tech/'
+    // const baseURL = postType === 'TECH' ? '/' : ('NON_TECH' ? '/non-tech/' : '/research/')
+    // 新增
+    var baseURL;
+    if (postType === 'TECH') {
+      baseURL = '/';
+    } else if (postType === 'NON_TECH') {
+      baseURL = '/non-tech/';
+    } else if (postType === 'RESEARCH') {
+      baseURL = '/research/';
+    } else if (postType === 'SHARE') {
+      baseURL = '/share/';
+    }
     const url = pageNum === 1 ? baseURL : `${baseURL}list-${pageNum}`
 
     navigate(url)
