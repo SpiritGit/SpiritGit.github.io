@@ -7,15 +7,18 @@ import { faList } from '@fortawesome/free-solid-svg-icons'
 import './index.css'
 
 export const GROUP_TITLES = {
-  'paper': '发表论文',
-  'patent': '发明专利',
-  'python': '数据科学中的Python编程',
+  'python': 'Python之于数据科学',
   'java': '大数据中的Java编程',
   'apache_flink': '顶级开源流处理引擎flink',
+  'DSA':'数据结构与算法',
+
+  'paper': '发表论文',
+  'patent': '发明专利',
   'research': '其他研究',
+
   'share': '转载与分享',
-  'non-tech': '日常杂谈',
-  'DSA':'数据结构与算法'
+
+  'non-tech': '日常杂谈'
 }
 
 export default function ArticleNavigator({ currArticle }) {

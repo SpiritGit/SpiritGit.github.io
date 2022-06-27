@@ -41,46 +41,9 @@ const CAREER = {
   ],
 }
 
+
 const PROJECTS = {
   Chinese: [
-
-    {
-      label: (
-        <a
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-          href="/articles/paper/aCoverOfPaper"
-        >
-          我的论文集
-        </a>
-      ), 
-      content: (
-        <span>
-          记录学习及工作生涯中的若干发表论文，目前主要涉及风险，精算，信用等领域，欢迎阅读与引用
-          <s>（主要增加引用量就是了）</s>
-        </span>
-      ),
-    },
-
-
-    {
-      label: (
-        <a
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-          href="/articles/patent/aCoverOfPatent"
-        >
-          我的专利集
-        </a>
-      ) ,
-      content: (
-        <span>
-          工作生涯中若干绝妙的发明创造，故转化为专利<s>（不能浪费，虽然都归单位所有）</s>
-        </span>
-      ),
-    },
-
-
     {
       label: (
         <a
@@ -88,12 +51,14 @@ const PROJECTS = {
           rel="noreferrer noopener nofollow"
           href="/articles/python/WhyPython"
         >
-          数学科学中的Python
+          Python之于数学科学
         </a>
       ),
       content: (
         <span>
-          Python编程教学<s>（不能浪费，虽然都归单位所有）</s>
+          作为我的入门编程语言，感情颇深。其上手简单，语法精炼<s>（小白友好）</s>，功能强大，类库丰富<s>（无所不能）</s>。
+          在数据科学领域，以上特性帮助数据科学家专注于数据及理论自身，而不用过多关注代码及语法，从而广受好评。
+          因此，本博客基于本人自学经历及工作实践，旁征博引<s>（抄抄教程抄抄书）</s>，对Python在数据科学领域的实践作介绍，欢迎阅读。
         </span>
       ),
     },
@@ -144,10 +109,66 @@ const PROJECTS = {
       ),
       content: (
         <span>
-          数据结构与算法<s>（不能浪费，虽然都归单位所有）</s>
+          一个非CS科班人士眼中的数据结构与算法<s>（理论上小白友好）</s>
         </span>
       ),
     },
+
+    {
+      label: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/paper/aCoverOfPaper"
+        >
+          我的论文集
+        </a>
+      ), 
+      content: (
+        <span>
+          记录学习及工作生涯中的若干发表论文，目前主要涉及风险，精算，信用等领域，欢迎阅读与引用
+          <s>（主要增加引用量就是了）</s>
+        </span>
+      ),
+    },
+
+
+    {
+      label: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/patent/aCoverOfPatent"
+        >
+          我的专利集
+        </a>
+      ) ,
+      content: (
+        <span>
+          工作生涯中若干绝妙的发明创造，故转化为专利<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
+      ),
+    },
+
+
+    {
+      label: (
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="/articles/research/aCoverOfOtherResearch"
+        >
+          其他研究
+        </a>
+      ) ,
+      content: (
+        <span>
+          其他研究<s>（不能浪费，虽然都归单位所有）</s>
+        </span>
+      ),
+    },
+
+
 
     {
       label: (
