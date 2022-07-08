@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-list-js",
+    "path": "/list-3",
+    "result": {"data":{"allMdx":{"totalCount":13,"nodes":[{"excerpt":"","id":"742e4cd5-5b03-5383-9000-3d413ead987a","slug":"general_algorithm/genetic_algorithm","frontmatter":{"title":"遗传算法","date":"2022-03-15","cover":"https://github.com/SpiritGit/SpiritGit.github.io/raw/main/src/images/covers/java_logo.jpg"},"timeToRead":1,"wordCount":{"paragraphs":0,"sentences":0,"words":0}}]}},"pageContext":{"limit":6,"skip":12,"numPages":3,"currentPage":3,"postType":"TECH","regex":"/^(?!non-tech)^(?!research)^(?!paper)^(?!patent)^(?!share)/"}},
+    "staticQueryHashes": ["2757060725","3605573801"]}
