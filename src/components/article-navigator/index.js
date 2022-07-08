@@ -10,11 +10,13 @@ export const GROUP_TITLES = {
   'python': 'Python之于数据科学',
   'java': '大数据中的Java编程',
   'apache_flink': '顶级开源流处理引擎flink',
-  'DSA':'数据结构与算法',
+  'DSA': '数据结构与算法',
+  'big_data_ramble': '大数据杂谈',
+  'general_algorithm': '通用算法',
 
   'paper': '发表论文',
   'patent': '发明专利',
-  'research': '其他研究',
+  'research': '研究广场',
 
   'share': '转载与分享',
 

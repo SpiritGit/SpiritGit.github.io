@@ -1,6 +1,3 @@
-// const remark_math = require(`remark-math`)
-// const rehype_katex = require(`rehype-katex`)
-
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
@@ -8,15 +5,15 @@ module.exports = {
     title: 'Spirit',
   },
   plugins: [
+
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+
         extensions: ['.mdx', '.md'],
 
-        // remarkPlugins: [remark_math,],
-        // rehypePlugins: [rehype_katex,],
-
         gatsbyRemarkPlugins: [
+          'gatsby-remark-katex',
           'gatsby-remark-mermaid',
           {
             resolve: `gatsby-remark-highlight-code`,
@@ -24,9 +21,11 @@ module.exports = {
               theme: 'one-dark',
             },
           },
-        ],
+
+        ], 
       },
     },
+
 
     {
       resolve: 'gatsby-source-filesystem',

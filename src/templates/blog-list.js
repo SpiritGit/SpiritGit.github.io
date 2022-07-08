@@ -3,7 +3,8 @@ import BaseLayout from '../components/base-layout'
 import { graphql, navigate } from 'gatsby'
 import { PostCard, Paginator } from '../components'
 import { motion } from 'framer-motion'
-import "katex/dist/katex.min.css"
+
+import 'katex/dist/katex.min.css'
 
 export const query = graphql`
   query blogListQuery($skip: Int!, $limit: Int!, $regex: String!) {
