@@ -11,7 +11,7 @@ export const GROUP_TITLES = {
   'java': '大数据中的Java编程',
   'apache_flink': '顶级开源流处理引擎flink',
   'DSA': '数据结构与算法',
-  'big_data_ramble': '大数据杂谈',
+  'tech_ramble': '技术杂谈',
   'general_algorithm': '通用算法',
 
   'paper': '发表论文',

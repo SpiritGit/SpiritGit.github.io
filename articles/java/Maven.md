@@ -1,0 +1,16 @@
+---
+title: Maven
+date: 2022-07-12
+cover: https://github.com/SpiritGit/SpiritGit.github.io/raw/main/src/images/covers/java_logo.jpg
+---
+
+`maven`安装jar包到本地`maven`仓库
+```bash
+mvn install:install-file \
+   -Dfile=./libs/utils.jar \
+   -DgroupId=cn.microvideo.lab \
+   -DartifactId=utils \
+   -Dversion=1.0 \
+   -Dpackaging=jar \
+   -DgeneratePom=true
+```

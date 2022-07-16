@@ -6,7 +6,7 @@ import ItemList from '../item-list'
 import './index.css'
 
 const SELF_INTROS = {
-  Chinese: [<div>你好，我是spirit，欢迎来到我的博客。</div>],
+  Chinese: [<div>你好，我是spirit，是要成为数据科学家的男人。</div>],
 }
 
 const CAREER = {
@@ -91,14 +91,14 @@ const PROJECTS = {
         <a
           target="_blank"
           rel="noreferrer noopener nofollow"
-          href="/articles/big_data_ramble/01What"
+          href="/articles/tech_ramble/01What"
         >
-          大数据杂谈
+          技术杂谈
         </a>
       ),
       content: (
         <span>
-          记录一些有趣的，有技术含量的大数据技术<s>（主要是无法归类，又想记，就都怼在这里了）</s>
+          记录一些有趣的，有含量的技术<s>（主要是无法归类，又想记，就都怼在这里了）</s>
         </span>
       ),
     },
@@ -166,14 +166,14 @@ const PROJECTS = {
           rel="noreferrer noopener nofollow"
           href="/articles/python/01WhyPython"
         >
-          Python之于数学科学
+          Python之于数据科学
         </a>
       ),
       content: (
         <span>
-          作为我的入门编程语言，感情颇深。其上手简单，开发迅速，语法精炼<s>（小白友好）</s>，功能强大，类库丰富<s>（无所不能）</s>，且内置类型非常容易操纵。
+          作为我的入门编程语言，感情颇深。其上手简单，语法精炼<s>（小白友好）</s>，功能强大，类库丰富<s>（无所不能）</s>，且内置类型非常容易操纵。
           在数据科学领域，以上特性帮助数据科学家专注于数据及理论自身，减少扣代码的工作量，从而广受好评。
-          因此，本博客基于本人自学经历及工作实践，旁征博引<s>（抄抄教程抄抄书）</s>，对Python在数据科学领域的实践作介绍，欢迎阅读。
+          因此，本博客基于本人自学经历及工作实践，旁征博引，对Python在数据科学领域的实践作介绍，欢迎阅读。
         </span>
       ),
     },
